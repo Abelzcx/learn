@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int c = 0;
+    
+    c = getchar();
+    while(c != '\n'){
+        putchar(c);
+        c = getchar();
+    }
+    return 0;
+}
